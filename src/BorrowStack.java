@@ -45,11 +45,7 @@ public class BorrowStack {
                     for (int i = stack.size() - 1; i >= 0; i--) {
                         Book b = stack.get(i);
 
-                        System.out.println(
-                                "ISBN: " + b.isbn +
-                                        ", Title: " + b.title +
-                                        ", Author: " + b.author
-                        );
+                        System.out.println( "ISBN: " + b.isbn + ", Title: " + b.title + ", Author: " + b.author");
                     }
                 }
 
